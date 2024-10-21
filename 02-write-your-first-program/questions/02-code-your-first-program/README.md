@@ -1,10 +1,12 @@
-## Which keyword below that you need use to define a package?
+# Which keyword below that you need use to define a package?
+
 ```go
 package main
 
 func main() {
 }
 ```
+
 1. func
 2. package *CORRECT*
 3. fmt.Println
@@ -23,26 +25,28 @@ func main() {
 >
 >
 
-
 ## What is the purpose of using package main in the following program?
+
 ```go
 package main
 
 func main() {
 }
 ```
+
 * To create a library package
 * To properly exit from the program
 * To create an executable Go program *CORRECT*
 
-
 ## What is the purpose of func main in the following program?
+
 ```go
 package main
 
 func main() {
 }
 ```
+
 1. It defines a package called main
 2. It allows Go to start executing the program *CORRECT*
 3. It prints a message to the console
@@ -57,8 +61,8 @@ func main() {
 >
 >
 
-
 ## What is the purpose of import "fmt" in the following program?
+
 ```go
 package main
 import "fmt"
@@ -67,6 +71,7 @@ func main() {
     fmt.Println("Hi!")
 }
 ```
+
 1. It prints "fmt" to the console
 2. It defines a new package called "fmt"
 3. It imports the `fmt` package; so you can use its functionalities *CORRECT*
@@ -81,15 +86,15 @@ func main() {
 >
 >
 
-
 ## Which keyword is used to declare a new function?
+
 * func *CORRECT*
 * package
 * Println
 * import
 
-
 ## What is a function?
+
 1. It's like a mini-program. It's a reusable and executable block of code. *CORRECT*
 2. It allows Go to execute a program.
 3. It allows Go to import a package called function.
@@ -105,8 +110,8 @@ func main() {
 >
 >
 
-
 ## Do you have to call the main function yourself?
+
 1. Yes, so that, I can execute my program.
 2. No, Go calls the main function automatically. *CORRECT*
 
@@ -114,9 +119,10 @@ func main() {
 >
 >
 
-
 ## Do you have to call a function to execute it?
-_(except the main func)_
+
+_(except the main func)*
+
 1. Yes, so that, Go can execute that function. *CORRECT*
 2. Yes, so that, Go can execute my program.
 3. No, Go calls the functions automatically.
@@ -132,14 +138,15 @@ _(except the main func)_
 > **3:** Go doesn't call any function automatically except the main func (and some other functions which you didn't learn about yet). So, except the main func, you need to call the functions yourself.
 >
 
-
 ## What does the following program print?
+
 ```go
 package main
 
 func main() {
 }
 ```
+
 1. It prints a message to the console
 2. It's a correct program but it doesn't print anything *CORRECT*
 3. It's an incorrect program
@@ -156,8 +163,8 @@ func main() {
 >
 >
 
-
 ## What does this program print?
+
 ```go
 package main
 
@@ -165,6 +172,7 @@ func main() {
     fmt.Println(Hi! I want to be a Gopher!)
 }
 ```
+
 * Hi! I want to be a Gopher!
 * It doesn't print anything
 * This program is incorrect *CORRECT*
@@ -177,8 +185,8 @@ func main() {
 >
 >
 
-
 ## What does this program print?
+
 ```go
 package main
 import "fmt"
@@ -187,6 +195,7 @@ func main() {
     fmt.Println("Hi there!")
 }
 ```
+
 * Hi there! *CORRECT*
 * fmt
 * This program is incorrect; it imports the wrong package or there isn't a function called `Println`
